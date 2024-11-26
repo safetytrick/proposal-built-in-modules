@@ -127,7 +127,7 @@ can still be done using `extend` or `Object.create`.
 
 We can start off by conventionally enforcing `Object.freeze` on exported Objects from standard library modules.
 If this turns out to be hard to check and enforce a separate proposal can be created to describe automatically
-freezing prototypes at the module boudary for standard library modules.
+freezing prototypes at the module boundary for standard library modules.
 
 *Note, the current direction is to freeze module contents thus requiring shimming code to wrap module classes and objects.  Given some discussion around this point, it may be dropped from the proposal before built in modulesa re added to the standard.*
 
